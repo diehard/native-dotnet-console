@@ -1,0 +1,13 @@
+# Use glob syntax.
+syntax: glob
+
+# Set certain folders/files or patterns to be ignored.
+.svn/
+bin/
+obj/
+*.user
+*.suo
+.DS_Store
+
+# Use regexp syntax.
+syntax: regexp
